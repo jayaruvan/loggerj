@@ -1,0 +1,13 @@
+{
+    "log": {
+        "logConfig": {
+            "logFolder": "./logs/service_name/",
+            "logFile": "service_name_%DATE%.log",
+            "logLevel": "debug",
+            "datePattern": "YYYY-MM-DD-HH",
+            "zippedArchive": true,
+            "maxSize": "20m",
+            "maxFiles": "900d"
+        }
+    }
+}

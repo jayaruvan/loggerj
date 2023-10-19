@@ -1,0 +1,11 @@
+{
+    "logConfig": {
+        "logFolder": "./logs/sms_servie/",
+        "logFile": "sms_servie.log",
+        "logLevel": "info",
+        "datePattern": "YYYY-MM-DD-HH",
+        "zippedArchive": true,
+        "maxSize": "20m",
+        "maxFiles": "900d"
+    }
+}
