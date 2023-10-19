@@ -1,8 +1,9 @@
+"use strict";
 const winston = require("winston");
 const format = winston.format;
 const DailyRotateFile = require("winston-daily-rotate-file");
 const config = require("config");
-const logConfig = config.get("log.logConfig");
+const logConfig = config.get("log.Config");
 
 //YYYY-MM-DD format date -->ja-JP
 const timezoned = () => {

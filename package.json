@@ -1,11 +1,16 @@
 {
   "name": "loggerj",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A custom wrapper for the Winston logger, simplifying log management and enhancing error handling.",
   "main": "logger.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jayaruvan Dissanayake (jayaruvan@gmail.com)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.9",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
 }

@@ -1,6 +1,6 @@
 {
     "log": {
-        "logConfig": {
+        "Config": {
             "logFolder": "./logs/service_name/",
             "logFile": "service_name_%DATE%.log",
             "logLevel": "debug",
