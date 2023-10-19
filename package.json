@@ -1,8 +1,8 @@
 {
   "name": "loggerj",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A custom wrapper for the Winston logger, simplifying log management and enhancing error handling.",
-  "main": "index.js",
+  "main": "logger.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
