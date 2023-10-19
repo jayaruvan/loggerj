@@ -1,6 +1,6 @@
 {
   "name": "loggerj",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A custom wrapper for the Winston logger, simplifying log management and enhancing error handling.",
   "main": "logger.js",
   "scripts": {
